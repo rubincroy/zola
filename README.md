@@ -1,13 +1,13 @@
 # zola - Spring boot + Swagger UI + Embedded H2
-# Step 1: To run the application from cmd prompt ( Prerequisites: Java 8, Maven )
+# Option 1: To run the application from cmd prompt ( Prerequisites: Java 8, Maven )
 mvn spring-boot: run
 
-# Step 2: Download the project and import to Eclipse IDE and Run as Java Application.
-
+# Option 2: Download the project and import to Eclipse IDE and Run as Java Application.
+------------------------------------------------------------------------------------------------------------------
 # To test the application, Use any Swagger UI or any Browser REST Client.
 # Swagger-UI URL : http://localhost:8080/swagger-ui.html
 
- 
+# For Testing on the Browser
 #1. Insertion of Invoice
 #URL: http://localhost:8080/v1/invoices
 #header: Content-Type: application/json
